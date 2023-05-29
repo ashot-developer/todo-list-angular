@@ -1,0 +1,36 @@
+nav {
+    padding: 15px;
+
+    ul {
+        li {
+            a {
+                color: #fff;
+
+                &:hover {
+                    color: #b3b3b3;
+                    transition: .2s all;
+                }
+            }
+        }
+    }
+
+    .spacer {
+        display: inline-block;
+        margin: 0 10px;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        vertical-align: middle;
+    }
+
+    .btn-login {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 5px;
+
+        &:hover {
+            color: #b3b3b3;
+            transition: .2s all;
+        }
+    }
+}
